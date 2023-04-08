@@ -1,0 +1,526 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+ul,li{
+  list-style-type: none;
+}
+
+body{
+  background-image: url("../img/ep_naturalwhite.png");
+}
+
+.container-index{  
+  width: 1000px; 
+  height: auto;
+  margin: auto auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 10px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+  margin-top: 60px;  
+
+}
+@media (min-width: 400px)
+{
+  .container-index {
+    max-width: 100%;
+  }
+}
+
+ /* @media (max-width: 1200px) {
+  .container-index {
+    max-width: 1240px;
+  }
+}  */
+
+/*header PADRE*/
+.navbar-color{
+  background-color: #575553a1;
+  
+ 
+  /* padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;/*alinea los elementos tambien se puede usar besaline*/
+  /* position: fixed;/*deja el menu fijo*/
+  /* gap: 5px; */ 
+}
+/*HIJO*/
+.icono-nav{
+  max-width:100%;
+  height:50px;
+  border: 1px solid #FA811B;
+ border-radius: 5px;
+ margin-left: 30px;
+ 
+}
+.nav-item{
+   margin-left: 10px;
+}
+.ul-nav{
+  margin-left: 65%;
+}
+/* Menu PADRE /*
+
+.nav-item{
+ display: flex;
+da espacio entre los elementos
+  margin-left: 150px; 
+}
+
+/*************************portada*************************/
+/*portada-index*/
+.portada-index{
+  background-image: url(../img/loteria2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 94vh;/**q cubra el alto de la pantalla e¡alto del viewport*/
+
+  /*display: flex;*alinea el texto*/
+  /*align-items: center;*alinea el texto*/
+ /* justify-content: center;*alinea el texto*/
+
+  /*background-color: crimson;quiero q ocupe todo el alto y ancho de la portada*/
+}
+.portada-texto{
+  /* background-color: rgba(95, 158, 160, 0.541); */
+  padding: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  gap:10px;
+  
+  }
+
+  .portada-texto-figcaption{
+    padding-top: 550px;
+    font-size: 1.2rem;
+    color: black;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+ /**********************texto***************/
+.container-texto{
+  display: flex;
+  flex-direction: row;
+    
+}
+
+.texto1{
+ padding: 10px; 
+ 
+}
+.texto1-h2{
+  font-size: 2rem;
+  padding: 5px 0px;
+  align-items: center;
+  
+}
+.texto1-hr{
+  height: 2px;
+  margin-left: auto;
+  margin-right: 10%; 
+  margin-top :1%;
+  border: 1px solid #FA8807;
+  flex-direction: row;
+  
+}
+.texto1-parrafo{
+  font-family:Arial, Helvetica, sans-serif;
+text-align: justify;
+line-height: 50px;
+margin:15px 20px 10px 0px;
+line-height:inherit;
+font-size: 16px;    
+line-height: 40px;
+padding-right: 35px; 
+
+}
+
+.texto2{
+  padding: 15px;
+  
+ }
+ .texto2-h2{
+   font-size: 2rem;
+   padding: 5px 0px;
+ }
+ .texto2-hr{
+   height: 2px;
+   margin-left: 1px;
+   margin-right: 3px; 
+   margin-top :-1%;
+   border: 1px solid #FA8807;
+   
+ }
+ .texto2-parrafo{
+  font-family:Arial, Helvetica, sans-serif;
+ text-align: justify;
+ line-height: 50px;
+ margin:15px 20px 10px 10px;
+ line-height:inherit;
+ font-size: 16px;    
+ line-height: 40px;
+ padding-right: 35px;  
+ }
+
+/********************novedades***********************/
+.novedad{
+  display: flex;
+  flex-direction: column;
+}
+ .novedad-h2{
+  font-size: 2rem;
+   padding: 5px ;
+   margin-left: -10px;
+}
+
+.novedad-hr{
+   height: 2px;
+    margin-left: 16%;
+   margin-right: 1%;   
+   margin-top :-3%;
+  
+  border: 1px solid #FA8807
+}
+
+.container-novedad {
+  width: 90%;
+  margin: 20px auto;
+  }
+/************************imagenes de novedad**************/
+  .tarjeta{
+    border: 10px solid transparent;
+    width: 250px;
+    height: 400px;
+    overflow: hidden;/*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.img-fluid{
+    max-width: 100%;/*para q la imagen quede dentro de la tarjeta*/
+}
+
+.tarjeta-titulo{
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: justify;
+  font-size: 14px;    
+line-height: 20px;
+font-weight: bold;
+
+
+}
+.contenedor-producto{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+/*****************juegos************/
+
+.container-juegos{  
+  width: 1000px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+  margin-top: 60px;   
+}
+
+@media (min-width: 400px)
+{
+  .container-juegos {
+    max-width: 100%;
+  }
+}
+
+.juegos-hr{
+  height: 2px;
+   margin-left: -2%; 
+  margin-right: 1%;
+   margin-top :1%;
+border: 1px solid #FA8807;   
+}
+.juegos-h1{
+  margin-top:-2px;
+}
+.tarjeta-juegos{
+  border: 2px solid transparent;
+  border-radius: 5px;
+  width: 250px;
+  height: 300px;
+  overflow: hidden;/*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.tarjeta-img{
+  width: 100%;/*para q la imagen quede dentro de la tarjeta*/
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+.contenedor-juegos{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+} 
+
+
+
+/**********************************/
+
+/*imagenes*/
+.nov-imagen {
+  display:inline-block;
+   margin:55px 10px 0px 80px; 
+  }
+.novedades img{
+   width: 85%;
+  margin: auto;
+  display: block;
+  border: 1px solid black;
+  border-radius: 50px 20px;
+}
+.novedades hr{
+  height: 2px;
+  margin-left: 22%;
+  margin-right: 3%;
+  margin-top :-3%;
+  background-color: #ffbc3b; 
+}
+
+/*************************formulario*************************/
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+  margin-top: 60px;
+}
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #FA811B; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #FA811B; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+label{
+  
+  display: block; 
+  float: center;  
+}
+.formulario h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #f88b32;
+}
+
+.formulario h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+/******************************historia*********************/
+.container-historia{  
+    width: 1000px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+    margin-top: 60px;  
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 400px)
+{
+  .container-historia {
+    max-width: 100%;
+  }
+}
+
+.historia-hr{
+  height: 2px;
+  margin-left: 25%;
+  margin-right: 3%;
+  margin-top :-2%;
+  background-color: #ffbc3b; 
+}
+.nav-lista-historia{
+  display: flex;
+    gap:20px;
+    padding: 50px;
+  }
+  .nav-lista-historia li a{
+    border: 2px solid rgb(229, 224, 224);
+    border-radius: 5px;  
+    padding: 10px 10px;   
+  }
+
+  .historia-p{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 50px;
+    margin:15px 0px 10px 70px;
+    line-height:inherit;
+    font-size: 16px;    
+    line-height: 30px;
+    padding-right: 35px; 
+  }
+  .historias{   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+  }
+ /* .historias .historia-img{
+justify-content: center;
+  border: 2px solid black;
+    width: 20px;
+    height: 250px;
+    width: 40%;/*para q la imagen quede dentro de la tarjeta*/
+    /* overflow: hidden;/*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
+  
+
+
+/******************direcciones-contacto2**************/
+.container-contacto2{
+  width: 900px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 70px; 
+  margin-top: 60px;
+  display: flex;
+}
+
+@media (min-width: 400px)
+{
+  .container-contacto2 {
+    max-width: 100%;
+  }
+}
+
+.contacto2-hr{  
+    height: 2px;
+    /* margin-left: -2%; */
+    
+    margin-top :1%;
+    border: 1px solid #FA8807;
+    /* background-color: #ffbc3b;    */
+}
+
+.contacto2-h2{
+  padding-top: 8px;
+  padding-left: -5%;
+  font-size: 22px; 
+  padding-bottom: 20px;
+  color: #0e0e0e;   
+}
+.contacto2-label{
+  line-height: 30px;
+  font-size: 16px; 
+   padding-left: 10px;
+  color: #0e0e0e;  
+}
+
+.conatcto2-img{
+  width:40px;
+  height:40px;
+  display: flex;
+  flex-direction: row; 
+  gap:20px;
+  }
+
+.contacto2-label{
+ margin-top: 10px;
+ align-content: stretch;
+}
+
+/****************footer***********/
+.container-footer{
+  background-color:rgb(110, 108, 108);
+  display: flex;
+  flex-direction: column;  
+  gap:40px;
+  align-items:center;
+
+}
+.container-img{
+  width: 80px;
+  padding: 12px;
+ 
+}
+.footer-img img{
+  width: 35px;
+ 
+}
+.footer-p{
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: justify;
+  
+  margin-top:-20px;
+  line-height:inherit;
+  font-size: 14px;    
+  
+}
+
+/* slider */
+.slider{
+  position: sticky;
+  z-index: 2;
+}
