@@ -26,7 +26,7 @@ body{
   margin-top: 60px;  
 
 }
-@media (min-width: 400px)
+@media (min-width: 320px)
 {
   .container-index {
     max-width: 100%;
@@ -246,7 +246,7 @@ font-weight: bold;
   margin-top: 60px;   
 }
 
-@media (min-width: 400px)
+@media (min-width: 320px)
 {
   .container-juegos {
     max-width: 100%;
@@ -382,7 +382,7 @@ label{
     display: flex;
     flex-direction: column;
 }
-@media (min-width: 400px)
+@media (min-width: 320px)
 {
   .container-historia {
     max-width: 100%;
@@ -424,14 +424,15 @@ label{
     
     
   }
- /* .historias .historia-img{
+ .historia-img{
 justify-content: center;
-  border: 2px solid black;
-    width: 20px;
-    height: 250px;
-    width: 40%;/*para q la imagen quede dentro de la tarjeta*/
+  border: 2px solid black;  
+    width: 256px;
+    height: 256px;
+    margin-left: 30%;
+    width: 35%;/*para q la imagen quede dentro de la tarjeta*/
     /* overflow: hidden;/*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
-  
+ }
 
 
 /******************direcciones-contacto2**************/
@@ -448,7 +449,7 @@ justify-content: center;
   display: flex;
 }
 
-@media (min-width: 400px)
+@media (min-width: 320px)
 {
   .container-contacto2 {
     max-width: 100%;
