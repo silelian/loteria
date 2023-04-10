@@ -26,7 +26,7 @@ body{
   margin-top: 60px;  
 
 }
-@media (min-width: 576px)
+@media (min-width: 400px)
 {
   .container-index {
     max-width: 100%;
@@ -83,7 +83,7 @@ da espacio entre los elementos
   background-size: cover;
   height: 94vh;/**q cubra el alto de la pantalla e¡alto del viewport*/ 
 }
-@media (min-width: 576px)
+@media (min-width: 400px)
 {
   .portada-index {
     max-width: 100%;
@@ -247,10 +247,10 @@ font-weight: bold;
   margin-top: 60px;   
 }
 
-@media (min-width: 576px)
+@media (min-width:400px)
 {
   .container-juegos {
-    max-width: 80%;
+    max-width: 100%;
    
     
   }
@@ -333,7 +333,7 @@ border: 1px solid #FA8807;
   margin-top: 60px;
 }
 
-@media (min-width: 576px)
+@media (min-width: 400px)
 {
   .contact_form {
     max-width: 100%;
@@ -401,7 +401,7 @@ label{
     display: flex;
     flex-direction: column;
 }
-@media (min-width: 576px)
+@media (min-width: 400px)
 {
   .container-historia {
     max-width: 100%;
@@ -468,7 +468,7 @@ justify-content: center;
   display: flex;
 }
 
-@media (min-width: 576px)
+@media (min-width: 400px)
 {
   .container-contacto2 {
     max-width: 100%;
