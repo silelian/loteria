@@ -410,10 +410,10 @@ label{
 
 .historia-hr{
   height: 2px;
-  margin-left: 25%;
-  margin-right: 3%;
+  margin-left: -1%;
+ 
   margin-top :-2%;
-  background-color: #ffbc3b; 
+    border: 1px solid #FA8807;
 }
 .nav-lista-historia{
   display: flex;
