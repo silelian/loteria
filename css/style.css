@@ -26,7 +26,7 @@ body{
   margin-top: 60px;  
 
 }
-@media (min-width: 320px)
+@media (min-width: 576px)
 {
   .container-index {
     max-width: 100%;
@@ -81,14 +81,15 @@ da espacio entre los elementos
   background-image: url(../img/loteria2.jpg);
   background-position: center;
   background-size: cover;
-  height: 94vh;/**q cubra el alto de la pantalla e¡alto del viewport*/
-
-  /*display: flex;*alinea el texto*/
-  /*align-items: center;*alinea el texto*/
- /* justify-content: center;*alinea el texto*/
-
-  /*background-color: crimson;quiero q ocupe todo el alto y ancho de la portada*/
+  height: 94vh;/**q cubra el alto de la pantalla e¡alto del viewport*/ 
 }
+@media (min-width: 576px)
+{
+  .portada-index {
+    max-width: 100%;
+  }
+}
+
 .portada-texto{
   /* background-color: rgba(95, 158, 160, 0.541); */
   padding: 15px;
@@ -246,11 +247,18 @@ font-weight: bold;
   margin-top: 60px;   
 }
 
-@media (min-width: 320px)
+@media (min-width: 576px)
 {
   .container-juegos {
-    max-width: 100%;
+    max-width: 80%;
+   
+    
   }
+  /* .contenedor-juegos{
+   margin-left: 20%;
+   
+  } */
+    
 }
 
 .juegos-hr{
@@ -312,7 +320,7 @@ border: 1px solid #FA8807;
   background-color: #ffbc3b; 
 }
 
-/*************************formulario*************************/
+/*************************formulario de contacto*************************/
 .contact_form{  
   width: 460px; 
   height: auto;
@@ -324,6 +332,17 @@ border: 1px solid #FA8807;
   padding-left: 30px; 
   margin-top: 60px;
 }
+
+@media (min-width: 576px)
+{
+  .contact_form {
+    max-width: 100%;
+  }
+}
+
+
+
+
 input{
   background-color: #fbfbfb; 
   width: 408px; 
@@ -382,7 +401,7 @@ label{
     display: flex;
     flex-direction: column;
 }
-@media (min-width: 320px)
+@media (min-width: 576px)
 {
   .container-historia {
     max-width: 100%;
@@ -449,7 +468,7 @@ justify-content: center;
   display: flex;
 }
 
-@media (min-width: 320px)
+@media (min-width: 576px)
 {
   .container-contacto2 {
     max-width: 100%;
