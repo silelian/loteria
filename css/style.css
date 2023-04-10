@@ -408,13 +408,14 @@ label{
   }
 }
 
-.historia-hr{
-  height: 2px;
-  margin-left: 25%;
-  margin-right: 3%;
+  .historia-hr{
+    height: 2px;
+  margin-left: -1%; 
+  margin-right: -2%;
   margin-top :-2%;
-  background-color: #ffbc3b; 
-}
+   border: 1px solid #FA8807;
+  }
+
 .nav-lista-historia{
   display: flex;
     gap:20px;
@@ -445,9 +446,9 @@ label{
   }
  .historia-img{
 justify-content: center;
-  border: 2px solid black;  
-    width: 256px;
-    height: 256px;
+  border: 2px solid transparent;  
+    width: 200px;
+    height: 200px;
     margin-left: 30%;
     width: 35%;/*para q la imagen quede dentro de la tarjeta*/
     /* overflow: hidden;/*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
@@ -477,8 +478,8 @@ justify-content: center;
 
 .contacto2-hr{  
     height: 2px;
-    /* margin-left: -2%; */
-    
+    margin-left: -2%;
+    margin-right: -100%;
     margin-top :1%;
     border: 1px solid #FA8807;
     /* background-color: #ffbc3b;    */
